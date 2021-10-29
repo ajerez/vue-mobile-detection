@@ -1,6 +1,6 @@
 
 # IMPORTANT
-**Version 2.0.0 of this plugin only works with Vue 3. If you need Vue 2 compatibility install version 1.0.0**
+**Version 2 of this plugin only works with Vue 3. If you need Vue 2 compatibility install version 1.0.0**
 
 
 # vue-mobile-detection
