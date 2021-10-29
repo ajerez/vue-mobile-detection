@@ -4,7 +4,7 @@
   "author": "Alberto Jerez <albertoj04@gmail.com>",
   "main": "dist/vue-mobile-detection.umd.js",
   "unpkg": "dist/vue-mobile-detection.umd.min.js",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": false,
   "repository": {
     "type": "git",
