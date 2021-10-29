@@ -1,10 +1,8 @@
-import Vue from "vue";
+import { createApp } from "vue";
 import App from "./App.vue";
 import detectMobile from "@/components/index";
 
-Vue.use(detectMobile);
-Vue.config.productionTip = false;
+const app = createApp(App);
 
-new Vue({
-  render: h => h(App)
-}).$mount("#app");
+app.use(detectMobile);
+app.mount("#app");

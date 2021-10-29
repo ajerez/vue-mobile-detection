@@ -12,11 +12,11 @@ export default {
   created() {
     // Use in js
     console.log(this.$isMobile());
-  }
+  },
 };
 </script>
 
-<style lang="less">
+<style>
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -1,5 +1,10 @@
+
+# IMPORTANT
+**Version 2.0.0 of this plugin only works with Vue 3. If you need Vue 2 compatibility install version 1.0.0**
+
+
 # vue-mobile-detection
-Vue.js prototype function `this.$isMobile()` that returns a Boolean value depending on whether or not the user is browsing with a mobile
+Vue.js global function `this.$isMobile()` that returns a Boolean value depending on whether or not the user is browsing with a mobile
 
 <p align="center">
   <a href="https://www.npmjs.com/package/vue-mobile-detection"><img alt="NPM Version" src="https://img.shields.io/npm/v/vue-mobile-detection.svg?style=for-the-badge"></a> 
@@ -15,7 +20,7 @@ https://ajerez.github.io/vue-mobile-detection/
 
 #### With npm (Recommended)
 ```bash
-npm install vue-mobile-detection
+npm i vue-mobile-detection
 ```
 
 #### yarn
@@ -30,7 +35,10 @@ yarn add vue-mobile-detection
 ```vue
 
 import VueMobileDetection from "vue-mobile-detection";
-Vue.use(VueMobileDetection);
+import App from "./App.vue";
+
+const app = createApp(App);
+app.use(VueMobileDetection);
 
 /* After the install you can use this.$isMobile() in all your vue components */
 ```

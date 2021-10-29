@@ -1,6 +1,6 @@
 module.exports = {
   css: {
-    extract: false
+    extract: false,
   },
-  publicPath: process.env.NODE_ENV === "production" ? "/vue-mobile-detection/" : "/"
+  publicPath: process.env.NODE_ENV === "production" ? "/vue-mobile-detection/" : "/",
 };
